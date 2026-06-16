@@ -1,0 +1,1107 @@
+[
+  {
+    "id": 1,
+    "difficulty": "easy",
+    "question": "Which New Testament letter says 'the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord'?",
+    "options": ["Galatians", "Romans", "Hebrews", "1 Corinthians"],
+    "hint": "Paul wrote this to the church in the capital of the Roman Empire.",
+    "answer": "Romans"
+  },
+  {
+    "id": 2,
+    "difficulty": "easy",
+    "question": "Which disciple is known as 'the one Jesus loved' and wrote both a Gospel and three letters?",
+    "options": ["Peter", "James", "John", "Andrew"],
+    "hint": "He was the son of Zebedee and brother of James.",
+    "answer": "John"
+  },
+  {
+    "id": 3,
+    "difficulty": "easy",
+    "question": "In the Beatitudes, Jesus says 'Blessed are the pure in heart, for they shall...' — what?",
+    "options": ["inherit the earth", "see God", "be comforted", "be called children of God"],
+    "hint": "This is found in Matthew 5:8.",
+    "answer": "see God"
+  },
+  {
+    "id": 4,
+    "difficulty": "medium",
+    "question": "Which book of the Bible records the replacement of Judas Iscariot among the twelve apostles?",
+    "options": ["Luke", "Acts", "Matthew", "Revelation"],
+    "hint": "The early church cast lots to decide between two men: Justus and Matthias.",
+    "answer": "Acts"
+  },
+  {
+    "id": 5,
+    "difficulty": "hard",
+    "question": "In the Parable of the Ten Virgins, what caused five of them to miss the bridegroom's arrival?",
+    "options": [
+      "They fell asleep and didn't wake up",
+      "They ran out of oil for their lamps",
+      "They didn't know the time",
+      "They went to the wrong house"
+    ],
+    "hint": "All ten slept, but only five were ready when they woke. The issue was what was in their vessels.",
+    "answer": "They ran out of oil for their lamps"
+  },
+  {
+    "id": 6,
+    "difficulty": "hard",
+    "question": "What did Paul say is the 'root of all kinds of evil' — often misquoted as money itself?",
+    "options": [
+      "Greed",
+      "The love of money",
+      "Pride",
+      "Dishonesty"
+    ],
+    "hint": "Found in 1 Timothy 6:10 — it's not money, but the attitude toward it.",
+    "answer": "The love of money"
+  },
+  {
+    "id": 7,
+    "difficulty": "hard",
+    "question": "Which two cities were destroyed alongside Sodom in Genesis 19, which is less commonly remembered?",
+    "options": [
+      "Gomorrah and Admah",
+      "Gomorrah and Zoar",
+      "Gomorrah and Zeboiim",
+      "Admah and Zeboiim"
+    ],
+    "hint": "Lot escaped to Zoar, so that city was spared. The destroyed pair is mentioned together in Genesis.",
+    "answer": "Gomorrah and Admah"
+  },
+  {
+    "id": 8,
+    "difficulty": "hard",
+    "question": "In Revelation, which of the seven churches was told it was 'neither cold nor hot' and would be spat out?",
+    "options": ["Sardis", "Philadelphia", "Laodicea", "Pergamum"],
+    "hint": "Jesus rebukes this church for being lukewarm and proud of its wealth.",
+    "answer": "Laodicea"
+  },
+  {
+    "id": 9,
+    "difficulty": "hard",
+    "question": "When Jesus fed 5,000 people, what was the original source of the food that was multiplied?",
+    "options": [
+      "Two fish and three loaves",
+      "Five loaves and two fish",
+      "Seven loaves and three fish",
+      "Four loaves and a basket of figs"
+    ],
+    "hint": "A young boy provided it. John 6:9 records the exact count.",
+    "answer": "Five loaves and two fish"
+  },
+  {
+    "id": 10,
+    "difficulty": "easy",
+    "question": "Which prophet said 'For I know the plans I have for you, declares the LORD, plans to prosper you and not to harm you'?",
+    "options": ["Isaiah", "Jeremiah", "Ezekiel", "Amos"],
+    "hint": "He is called the 'weeping prophet' and this is found in chapter 29 of his book.",
+    "answer": "Jeremiah"
+  },
+  {
+    "id": 11,
+    "difficulty": "medium",
+    "question": "What specific sign did Gideon use to confirm God's call before going to battle — twice with a fleece?",
+    "options": [
+      "Fire consuming the altar",
+      "Dew on the fleece but not the ground, then dry fleece with wet ground",
+      "An angel appearing twice",
+      "Water flowing from a rock"
+    ],
+    "hint": "He asked God to reverse the moisture pattern the second night to be doubly sure.",
+    "answer": "Dew on the fleece but not the ground, then dry fleece with wet ground"
+  },
+  {
+    "id": 12,
+    "difficulty": "hard",
+    "question": "What was the first question God ever asked a human being, according to Genesis?",
+    "options": [
+      "Why have you done this?",
+      "Where are you?",
+      "Who told you that you were naked?",
+      "What is this you have done?"
+    ],
+    "hint": "It came right after Adam hid among the trees following the Fall.",
+    "answer": "Where are you?"
+  },
+  {
+    "id": 13,
+    "difficulty": "hard",
+    "question": "Which chapter in Isaiah is quoted more times in the New Testament than any other chapter in the Old Testament?",
+    "options": ["Isaiah 40", "Isaiah 53", "Isaiah 9", "Isaiah 61"],
+    "hint": "It describes a suffering servant who bears the sins of many — fulfilled in Jesus' crucifixion.",
+    "answer": "Isaiah 53"
+  },
+  {
+    "id": 14,
+    "difficulty": "hard",
+    "question": "In Acts 5, why did Ananias and Sapphira die suddenly?",
+    "options": [
+      "They worshipped an idol",
+      "They lied to the Holy Spirit about money from a land sale",
+      "They refused to be baptized",
+      "They blasphemed in the temple"
+    ],
+    "hint": "Peter told each of them separately: 'You have not lied to men but to God.'",
+    "answer": "They lied to the Holy Spirit about money from a land sale"
+  },
+  {
+    "id": 15,
+    "difficulty": "easy",
+    "question": "What does Jesus say is the greatest commandment in Matthew 22?",
+    "options": [
+      "Do not murder",
+      "Keep the Sabbath holy",
+      "Love the Lord your God with all your heart, soul, and mind",
+      "Honor your father and mother"
+    ],
+    "hint": "He adds a second commandment right after: love your neighbor as yourself.",
+    "answer": "Love the Lord your God with all your heart, soul, and mind"
+  },
+  {
+    "id": 16,
+    "difficulty": "medium",
+    "question": "How many times did Jesus tell Peter to forgive someone who sins against him, when Peter suggested seven times?",
+    "options": ["Seventy", "Seventy-seven times", "Seven hundred", "Seventy times seven"],
+    "hint": "Jesus' answer in Matthew 18:22 depends on the Bible translation — some say 77, others say 490.",
+    "answer": "Seventy times seven"
+  },
+  {
+    "id": 17,
+    "difficulty": "hard",
+    "question": "Which Old Testament figure is the only person explicitly said to have 'walked with God' and then 'was no more, because God took him away' without dying?",
+    "options": ["Noah", "Elijah", "Enoch", "Moses"],
+    "hint": "He was the seventh from Adam and the father of Methuselah.",
+    "answer": "Enoch"
+  },
+  {
+    "id": 18,
+    "difficulty": "hard",
+    "question": "What was the name of the pool in Jerusalem where Jesus healed a man who had been ill for 38 years?",
+    "options": ["Pool of Siloam", "Pool of Bethesda", "Spring of Gihon", "Well of Jacob"],
+    "hint": "The pool had five covered colonnades and people waited for the water to stir.",
+    "answer": "Pool of Bethesda"
+  },
+  {
+    "id": 19,
+    "difficulty": "hard",
+    "question": "Paul lists nine fruits of the Spirit in Galatians 5. Which of these is NOT one of them?",
+    "options": ["Faithfulness", "Humility", "Gentleness", "Self-control"],
+    "hint": "The list is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, and self-control.",
+    "answer": "Humility"
+  },
+  {
+    "id": 20,
+    "difficulty": "easy",
+    "question": "In Psalm 23, David says 'The LORD is my shepherd, I shall not...' — what?",
+    "options": ["be afraid", "be in want", "fall", "stumble"],
+    "hint": "It speaks of provision and peace — verse 1 is the most quoted line.",
+    "answer": "be in want"
+  },
+  {
+    "id": 21,
+    "difficulty": "medium",
+    "question": "In the story of the Prodigal Son, what did the father give him when he returned — the first item mentioned?",
+    "options": [
+      "A robe and ring",
+      "The best robe",
+      "Sandals",
+      "A fatted calf"
+    ],
+    "hint": "Luke 15:22 — the father calls for it immediately and it's put on the son's back.",
+    "answer": "The best robe"
+  },
+  {
+    "id": 22,
+    "difficulty": "hard",
+    "question": "What was the 'thorn in Paul's flesh' that he prayed three times for God to remove?",
+    "options": [
+      "Persecution from the Jews",
+      "A weakness or affliction he was not told to identify",
+      "Temptation to boast",
+      "His past as a persecutor of Christians"
+    ],
+    "hint": "God's response in 2 Corinthians 12 was: 'My grace is sufficient for you.'",
+    "answer": "A weakness or affliction he was not told to identify"
+  },
+  {
+    "id": 23,
+    "difficulty": "hard",
+    "question": "Which book of the Bible contains the phrase 'There is no new thing under the sun'?",
+    "options": ["Proverbs", "Job", "Ecclesiastes", "Psalms"],
+    "hint": "It was likely written by a king who had accumulated everything life could offer but found it meaningless.",
+    "answer": "Ecclesiastes"
+  },
+  {
+    "id": 24,
+    "difficulty": "hard",
+    "question": "When Moses sent twelve spies into Canaan, only two returned with a positive report. Which two?",
+    "options": [
+      "Moses and Aaron",
+      "Joshua and Caleb",
+      "Caleb and Phinehas",
+      "Joshua and Gideon"
+    ],
+    "hint": "Numbers 13–14 records this. One was from the tribe of Judah, the other from Ephraim.",
+    "answer": "Joshua and Caleb"
+  },
+  {
+    "id": 25,
+    "difficulty": "easy",
+    "question": "According to John 3:16, what does God give so that everyone who believes in Jesus will not perish?",
+    "options": [
+      "The Holy Spirit",
+      "His only begotten Son",
+      "Eternal peace",
+      "His Word"
+    ],
+    "hint": "This is the most memorized verse in the New Testament.",
+    "answer": "His only begotten Son"
+  },
+  {
+    "id": 26,
+    "difficulty": "medium",
+    "question": "What was the original Hebrew name of the apostle Peter?",
+    "options": ["Simon", "Cephas", "Andrew", "Bartholomew"],
+    "hint": "Jesus gave him a new name meaning 'rock' — but he was born with a different one.",
+    "answer": "Simon"
+  },
+  {
+    "id": 27,
+    "difficulty": "hard",
+    "question": "In Daniel 2, what material made up the feet and toes of Nebuchadnezzar's statue in his dream?",
+    "options": [
+      "Clay and bronze",
+      "Iron and clay",
+      "Gold and silver",
+      "Clay and silver"
+    ],
+    "hint": "The weakest part of the statue — representing a divided and fragile kingdom.",
+    "answer": "Iron and clay"
+  },
+  {
+    "id": 28,
+    "difficulty": "hard",
+    "question": "What specific title does Jesus give himself in John 11:25 when speaking to Martha about resurrection?",
+    "options": [
+      "The Way, the Truth, and the Life",
+      "The Good Shepherd",
+      "The Resurrection and the Life",
+      "The Bread of Life"
+    ],
+    "hint": "He said it just before raising Lazarus from the dead.",
+    "answer": "The Resurrection and the Life"
+  },
+  {
+    "id": 29,
+    "difficulty": "hard",
+    "question": "Which Old Testament king is described as doing 'more evil than all the kings of Israel before him' and building altars for Baal?",
+    "options": ["Manasseh", "Ahab", "Jeroboam", "Ahaz"],
+    "hint": "He also made his son pass through fire and practiced witchcraft — but later repented.",
+    "answer": "Manasseh"
+  },
+  {
+    "id": 30,
+    "difficulty": "easy",
+    "question": "Which book of the Bible begins with 'In the beginning was the Word, and the Word was with God, and the Word was God'?",
+    "options": ["Genesis", "John", "Romans", "Revelation"],
+    "hint": "It is the fourth Gospel and written by one of Jesus' closest disciples.",
+    "answer": "John"
+  },
+  {
+    "id": 31,
+    "difficulty": "medium",
+    "question": "In the armour of God described in Ephesians 6, what does Paul call 'the sword of the Spirit'?",
+    "options": [
+      "Prayer",
+      "The Word of God",
+      "Faith",
+      "Righteousness"
+    ],
+    "hint": "It is the only offensive weapon in the list — every other piece is defensive.",
+    "answer": "The Word of God"
+  },
+  {
+    "id": 32,
+    "difficulty": "hard",
+    "question": "What was Elisha's specific request from Elijah before Elijah was taken to heaven?",
+    "options": [
+      "His cloak and staff",
+      "A double portion of his spirit",
+      "The ability to call down fire",
+      "Wisdom to lead Israel"
+    ],
+    "hint": "Elijah said it was a hard thing to ask but promised it if Elisha saw him go.",
+    "answer": "A double portion of his spirit"
+  },
+  {
+    "id": 33,
+    "difficulty": "hard",
+    "question": "Which letter in the New Testament contains the famous 'love chapter' — where Paul defines love without using the word 'God'?",
+    "options": ["Ephesians", "Colossians", "1 Corinthians", "Romans"],
+    "hint": "It is found in chapter 13, sandwiched between teachings on spiritual gifts.",
+    "answer": "1 Corinthians"
+  },
+  {
+    "id": 34,
+    "difficulty": "hard",
+    "question": "According to Hebrews 11:1, what is faith? Complete the verse: 'Faith is the substance of things hoped for, the...'",
+    "options": [
+      "proof of things unseen",
+      "evidence of things not seen",
+      "assurance of things not present",
+      "certainty of things not proven"
+    ],
+    "hint": "The KJV uses the word 'evidence' while modern translations say 'assurance' — but the classic verse is well known.",
+    "answer": "evidence of things not seen"
+  },
+  {
+    "id": 35,
+    "difficulty": "easy",
+    "question": "How many days was Jesus in the wilderness being tempted by the devil before his ministry began?",
+    "options": ["7", "21", "30", "40"],
+    "hint": "The same number Moses fasted on Sinai and Israel wandered in the desert.",
+    "answer": "40"
+  },
+  {
+    "id": 36,
+    "difficulty": "medium",
+    "question": "In Jesus' Sermon on the Mount, what does he say about those who mourn?",
+    "options": [
+      "They shall be strengthened",
+      "They shall be comforted",
+      "They shall see God",
+      "They shall inherit the earth"
+    ],
+    "hint": "This is the second Beatitude in Matthew 5.",
+    "answer": "They shall be comforted"
+  },
+  {
+    "id": 37,
+    "difficulty": "hard",
+    "question": "In Numbers 22, why was Balaam's donkey stopped by an angel on the road to Moab?",
+    "options": [
+      "The donkey was sick and couldn't continue",
+      "God was angry at Balaam for going with the Moabite princes",
+      "The road was blocked by a river",
+      "Balaam's servant turned back"
+    ],
+    "hint": "The angel stood with a drawn sword. God's anger was because Balaam went even though God had warned him.",
+    "answer": "God was angry at Balaam for going with the Moabite princes"
+  },
+  {
+    "id": 38,
+    "difficulty": "hard",
+    "question": "What does the name 'Immanuel' mean, and in which book is it first prophesied in the Old Testament?",
+    "options": [
+      "'God saves us' — Psalms",
+      "'God with us' — Isaiah",
+      "'God is mighty' — Daniel",
+      "'God reigns' — Micah"
+    ],
+    "hint": "The prophet spoke of a virgin conceiving and giving birth. Matthew 1:23 quotes it directly.",
+    "answer": "'God with us' — Isaiah"
+  },
+  {
+    "id": 39,
+    "difficulty": "hard",
+    "question": "Who wrote the most books in the New Testament by count?",
+    "options": ["Peter", "John", "Luke", "Paul"],
+    "hint": "He authored at least 13 letters — from Romans to Philemon.",
+    "answer": "Paul"
+  },
+  {
+    "id": 40,
+    "difficulty": "easy",
+    "question": "What happened to the temple curtain when Jesus died on the cross?",
+    "options": [
+      "It caught fire",
+      "It was torn in two from top to bottom",
+      "It fell to the ground",
+      "It turned black"
+    ],
+    "hint": "Matthew 27:51 — the tearing symbolized direct access to God for all people.",
+    "answer": "It was torn in two from top to bottom"
+  },
+  {
+    "id": 41,
+    "difficulty": "medium",
+    "question": "Which Gospel is the only one that records the story of the ten lepers being healed — and only one returning to say thank you?",
+    "options": ["Matthew", "Mark", "Luke", "John"],
+    "hint": "This Gospel was written by a physician who paid close attention to healing miracles.",
+    "answer": "Luke"
+  },
+  {
+    "id": 42,
+    "difficulty": "hard",
+    "question": "In Revelation 12, the woman clothed with the sun has how many stars on her crown?",
+    "options": ["7", "10", "12", "24"],
+    "hint": "The number mirrors the tribes of Israel and the apostles.",
+    "answer": "12"
+  },
+  {
+    "id": 43,
+    "difficulty": "hard",
+    "question": "What strange supernatural event happened to the sun when Joshua was fighting the Amorites?",
+    "options": [
+      "It turned red",
+      "It stood still for about a full day",
+      "It went dark for three hours",
+      "It rose in the west"
+    ],
+    "hint": "Joshua prayed and God answered. No day like it existed before or after, says Joshua 10.",
+    "answer": "It stood still for about a full day"
+  },
+  {
+    "id": 44,
+    "difficulty": "hard",
+    "question": "In the book of Job, how many sons and daughters did Job have restored to him after his suffering ended?",
+    "options": [
+      "The same — 7 sons and 3 daughters",
+      "Double — 14 sons and 6 daughters",
+      "7 sons and 3 daughters",
+      "3 sons and 7 daughters"
+    ],
+    "hint": "Job 42:13 records the restoration, and his daughters' names are actually listed.",
+    "answer": "7 sons and 3 daughters"
+  },
+  {
+    "id": 45,
+    "difficulty": "hard",
+    "question": "Which prophet in the Old Testament married a prostitute as a command from God to illustrate His relationship with unfaithful Israel?",
+    "options": ["Amos", "Hosea", "Joel", "Micah"],
+    "hint": "Her name was Gomer and she kept returning to her old life.",
+    "answer": "Hosea"
+  },
+  {
+    "id": 46,
+    "difficulty": "easy",
+    "question": "What gift did the Holy Spirit give to the disciples on the day of Pentecost that amazed the crowd?",
+    "options": [
+      "The ability to heal the sick",
+      "The ability to speak in other tongues",
+      "The gift of prophecy",
+      "The ability to raise the dead"
+    ],
+    "hint": "People from different nations heard the disciples speaking in their own native languages.",
+    "answer": "The ability to speak in other tongues"
+  },
+  {
+    "id": 47,
+    "difficulty": "medium",
+    "question": "Who was the Ethiopian official, a eunuch of high authority, that Philip the evangelist led to Christ in Acts 8?",
+    "options": [
+      "A treasurer of Queen Candace",
+      "A governor of Nubia",
+      "A general of the Ethiopian army",
+      "A priest of the sun god"
+    ],
+    "hint": "He was reading from Isaiah 53 in his chariot when Philip approached him.",
+    "answer": "A treasurer of Queen Candace"
+  },
+  {
+    "id": 48,
+    "difficulty": "hard",
+    "question": "What was the exact charge written on the sign above Jesus' cross, as recorded in John 19?",
+    "options": [
+      "Jesus of Galilee, King of the Jews",
+      "Jesus of Nazareth, the King of the Jews",
+      "Jesus Christ, King of Judea",
+      "Jesus the Nazarene, Messiah"
+    ],
+    "hint": "Pilate wrote it and refused to change it even when the chief priests objected.",
+    "answer": "Jesus of Nazareth, the King of the Jews"
+  },
+  {
+    "id": 49,
+    "difficulty": "hard",
+    "question": "In 2 Kings 2, what did Elisha do with salt when the people of Jericho told him their water was bad?",
+    "options": [
+      "He poured it in the Jordan River",
+      "He threw it into the spring of water",
+      "He mixed it with oil and prayed over it",
+      "He buried it under the city gate"
+    ],
+    "hint": "God said through him: 'I have healed this water; never again will it cause death.'",
+    "answer": "He threw it into the spring of water"
+  },
+  {
+    "id": 50,
+    "difficulty": "hard",
+    "question": "Which apostle was killed by Herod Agrippa I, making him the first apostle to be martyred?",
+    "options": ["Peter", "Stephen", "James the son of Zebedee", "Philip"],
+    "hint": "Acts 12 records that Herod had him killed with the sword to please the Jews.",
+    "answer": "James the son of Zebedee"
+  },
+  {
+    "id": 51,
+    "difficulty": "easy",
+    "question": "According to Matthew 5:14, Jesus tells His followers they are what 'of the world'?",
+    "options": [
+      "The salt",
+      "The light",
+      "The hope",
+      "The voice"
+    ],
+    "hint": "He uses a visible landmark as the metaphor — something that cannot be hidden.",
+    "answer": "The light"
+  },
+  {
+    "id": 52,
+    "difficulty": "medium",
+    "question": "Which king of Israel had 700 wives of royal birth and 300 concubines, whose foreign wives turned his heart from God?",
+    "options": ["Saul", "David", "Solomon", "Rehoboam"],
+    "hint": "He started with legendary wisdom but ended in idolatry — 1 Kings 11 records his downfall.",
+    "answer": "Solomon"
+  },
+  {
+    "id": 53,
+    "difficulty": "hard",
+    "question": "In Revelation 2, what does Jesus promise to the one who overcomes in the church of Pergamum?",
+    "options": [
+      "The crown of life",
+      "Hidden manna and a white stone with a new name",
+      "Power over nations",
+      "The morning star"
+    ],
+    "hint": "The white stone with a new name written on it — a promise of personal identity in Christ.",
+    "answer": "Hidden manna and a white stone with a new name"
+  },
+  {
+    "id": 54,
+    "difficulty": "hard",
+    "question": "What material was the Ark of the Covenant overlaid with, inside and outside?",
+    "options": [
+      "Silver",
+      "Bronze",
+      "Pure gold",
+      "Cedar wood"
+    ],
+    "hint": "Exodus 25 describes it in detail — the same material covered the mercy seat.",
+    "answer": "Pure gold"
+  },
+  {
+    "id": 55,
+    "difficulty": "hard",
+    "question": "How did the prophet Elijah defeat the 450 prophets of Baal on Mount Carmel — after the fire fell?",
+    "options": [
+      "He prayed and they fled",
+      "He had them all killed at the brook Kishon",
+      "He bound them and threw them off the mountain",
+      "He drove them into the sea"
+    ],
+    "hint": "1 Kings 18:40 — Elijah gave a command immediately after the people acknowledged the LORD.",
+    "answer": "He had them all killed at the brook Kishon"
+  },
+  {
+    "id": 56,
+    "difficulty": "easy",
+    "question": "Which two books of the Bible do NOT mention the name of God anywhere in their text?",
+    "options": [
+      "Ruth and Esther",
+      "Esther and Song of Solomon",
+      "Song of Solomon and Ecclesiastes",
+      "Obadiah and Philemon"
+    ],
+    "hint": "One is a love poem, the other tells of a Jewish queen saving her people — both omit God's name entirely.",
+    "answer": "Esther and Song of Solomon"
+  },
+  {
+    "id": 57,
+    "difficulty": "medium",
+    "question": "In the Lord's Prayer, what does Jesus say comes immediately after 'Your kingdom come, your will be done on earth as it is in heaven'?",
+    "options": [
+      "Forgive us our trespasses",
+      "Give us today our daily bread",
+      "Lead us not into temptation",
+      "Deliver us from evil"
+    ],
+    "hint": "Matthew 6:11 — it's a request for provision, asked day by day.",
+    "answer": "Give us today our daily bread"
+  },
+  {
+    "id": 58,
+    "difficulty": "hard",
+    "question": "What does Proverbs 4:7 say wisdom is, above all other things you could acquire?",
+    "options": [
+      "A crown of glory",
+      "More precious than rubies",
+      "The principal thing",
+      "The foundation of life"
+    ],
+    "hint": "The verse says: 'Wisdom is ___, therefore get wisdom; and with all your getting get understanding.'",
+    "answer": "The principal thing"
+  },
+  {
+    "id": 59,
+    "difficulty": "hard",
+    "question": "Who was Boaz's near-kinsman redeemer who refused to marry Ruth, allowing Boaz to step in instead?",
+    "options": [
+      "Elimelech",
+      "Obed",
+      "A man referred to only as 'So-and-So'",
+      "Mahlon"
+    ],
+    "hint": "Ruth 4 records him declining because it might endanger his own inheritance.",
+    "answer": "A man referred to only as 'So-and-So'"
+  },
+  {
+    "id": 60,
+    "difficulty": "hard",
+    "question": "In Paul's letter to the Romans, what does he say God used to shame the wise and the strong?",
+    "options": [
+      "The preaching of the cross",
+      "The foolish and weak things of the world",
+      "The prophecies of the Old Testament",
+      "The testimony of the apostles"
+    ],
+    "hint": "1 Corinthians 1:27 — God deliberately chose what the world despises.",
+    "answer": "The foolish and weak things of the world"
+  },
+  {
+    "id": 61,
+    "difficulty": "easy",
+    "question": "Jesus said 'I am the way, the truth, and the life. No one comes to the Father except through me.' Which Gospel records this?",
+    "options": ["Matthew", "Mark", "Luke", "John"],
+    "hint": "Thomas had just asked Jesus where He was going and how they could know the way.",
+    "answer": "John"
+  },
+  {
+    "id": 62,
+    "difficulty": "medium",
+    "question": "In the story of Shadrach, Meshach and Abednego in the furnace, who did the king say he saw as a fourth person walking in the fire?",
+    "options": [
+      "An angel of God",
+      "A son of the gods",
+      "The prophet Daniel",
+      "A spirit of the LORD"
+    ],
+    "hint": "Daniel 3:25 — even Nebuchadnezzar recognized this fourth figure was unlike any man.",
+    "answer": "A son of the gods"
+  },
+  {
+    "id": 63,
+    "difficulty": "hard",
+    "question": "What did Paul and Silas do at midnight while in prison in Philippi, before the earthquake broke them free?",
+    "options": [
+      "They fasted and wept",
+      "They called out to God in silence",
+      "They prayed and sang hymns",
+      "They rebuked the prison warden"
+    ],
+    "hint": "Acts 16:25 — the other prisoners were listening.",
+    "answer": "They prayed and sang hymns"
+  },
+  {
+    "id": 64,
+    "difficulty": "hard",
+    "question": "What is the name of the place where Jesus was betrayed by Judas — a garden across the Kidron Valley?",
+    "options": ["Golgotha", "Gethsemane", "Bethany", "Bethphage"],
+    "hint": "The name means 'oil press' in Hebrew, and it is where Jesus prayed 'not my will but yours.'",
+    "answer": "Gethsemane"
+  },
+  {
+    "id": 65,
+    "difficulty": "hard",
+    "question": "What does the number 666 represent in Revelation 13, according to the text itself?",
+    "options": [
+      "The number of the beast",
+      "The mark required to buy and sell",
+      "The number of a man — the beast's number",
+      "The count of fallen angels"
+    ],
+    "hint": "Revelation 13:18 says it calls for wisdom and that the number is that of a man.",
+    "answer": "The number of a man — the beast's number"
+  },
+  {
+    "id": 66,
+    "difficulty": "easy",
+    "question": "What was the profession of Matthew (Levi) before Jesus called him to be a disciple?",
+    "options": ["Fisherman", "Tax collector", "Carpenter", "Shepherd"],
+    "hint": "He sat at a tax booth in Capernaum. His profession made him despised by fellow Jews.",
+    "answer": "Tax collector"
+  },
+  {
+    "id": 67,
+    "difficulty": "medium",
+    "question": "Which letter of Paul opens with 'Paul, a servant of Christ Jesus, called to be an apostle, set apart for the gospel of God'?",
+    "options": ["Ephesians", "Romans", "Galatians", "Philippians"],
+    "hint": "It is the longest of Paul's letters and is considered his theological masterpiece.",
+    "answer": "Romans"
+  },
+  {
+    "id": 68,
+    "difficulty": "hard",
+    "question": "In the Old Testament, what specific item in Achan's tent caused Israel's defeat at the city of Ai?",
+    "options": [
+      "A stolen idol",
+      "A Babylonian robe, silver, and a gold wedge",
+      "Weapons from Jericho",
+      "A scroll of pagan law"
+    ],
+    "hint": "Joshua 7:21 — Achan confessed exactly what he had taken and hidden in the ground.",
+    "answer": "A Babylonian robe, silver, and a gold wedge"
+  },
+  {
+    "id": 69,
+    "difficulty": "hard",
+    "question": "Which Old Testament prophet saw a vision of a valley of dry bones that came back to life?",
+    "options": ["Isaiah", "Jeremiah", "Ezekiel", "Daniel"],
+    "hint": "God asked him: 'Son of man, can these bones live?' — Ezekiel 37.",
+    "answer": "Ezekiel"
+  },
+  {
+    "id": 70,
+    "difficulty": "hard",
+    "question": "In Luke 16, in the story of the rich man and Lazarus, what does Abraham say separates the rich man from Lazarus after death?",
+    "options": [
+      "A wall of fire",
+      "A great chasm that cannot be crossed",
+      "The gates of Hades",
+      "An angel with a sword"
+    ],
+    "hint": "Abraham says it was fixed so that no one can cross from one side to the other.",
+    "answer": "A great chasm that cannot be crossed"
+  },
+  {
+    "id": 71,
+    "difficulty": "easy",
+    "question": "On which day of creation did God create human beings, according to Genesis 1?",
+    "options": ["Fourth", "Fifth", "Sixth", "Seventh"],
+    "hint": "God rested on the very next day after creating humans.",
+    "answer": "Sixth"
+  },
+  {
+    "id": 72,
+    "difficulty": "medium",
+    "question": "What did the Israelites complain about in the wilderness that caused God to send venomous snakes among them?",
+    "options": [
+      "Lack of water",
+      "Speaking against God and Moses about the food",
+      "Fear of the Canaanites",
+      "Missing Egypt's temples"
+    ],
+    "hint": "Numbers 21:5 — they said 'we detest this miserable food' about the manna God provided.",
+    "answer": "Speaking against God and Moses about the food"
+  },
+  {
+    "id": 73,
+    "difficulty": "hard",
+    "question": "What was the name of King David's son who led a rebellion against him and briefly took control of Jerusalem?",
+    "options": ["Amnon", "Adonijah", "Absalom", "Solomon"],
+    "hint": "He was famous for his long hair and was killed hanging from an oak tree.",
+    "answer": "Absalom"
+  },
+  {
+    "id": 74,
+    "difficulty": "hard",
+    "question": "According to Revelation 20, for how many years will Satan be bound in the Abyss before being released briefly?",
+    "options": ["100", "500", "1000", "7"],
+    "hint": "This period is referred to as the Millennium — 'a thousand years.'",
+    "answer": "1000"
+  },
+  {
+    "id": 75,
+    "difficulty": "hard",
+    "question": "Which epistle warns: 'Do not add to his words, or he will rebuke you and prove you a liar'?",
+    "options": ["Revelation", "Deuteronomy", "Proverbs", "James"],
+    "hint": "Proverbs 30:6 — it also says do not take away from them.",
+    "answer": "Proverbs"
+  },
+  {
+    "id": 76,
+    "difficulty": "easy",
+    "question": "What is the last word of the entire Bible?",
+    "options": ["Amen", "Maranatha", "Hallelujah", "Forever"],
+    "hint": "The Book of Revelation ends with it — a Hebrew word of affirmation.",
+    "answer": "Amen"
+  },
+  {
+    "id": 77,
+    "difficulty": "medium",
+    "question": "In the book of Esther, who was the prime minister of Persia whose pride was wounded because Mordecai would not bow to him?",
+    "options": ["Artaxerxes", "Haman", "Bigthana", "Zeresh"],
+    "hint": "He plotted to exterminate all Jews in the Persian Empire because of one man's refusal.",
+    "answer": "Haman"
+  },
+  {
+    "id": 78,
+    "difficulty": "hard",
+    "question": "In the New Testament, which two apostles were sent by the Jerusalem church to investigate the revival happening in Samaria?",
+    "options": [
+      "Paul and Barnabas",
+      "Peter and John",
+      "Peter and James",
+      "Philip and Stephen"
+    ],
+    "hint": "Acts 8:14 — they came and prayed for the new converts to receive the Holy Spirit.",
+    "answer": "Peter and John"
+  },
+  {
+    "id": 79,
+    "difficulty": "hard",
+    "question": "According to Psalm 22:1, what did David cry out — later quoted by Jesus on the cross?",
+    "options": [
+      "'Why have you hidden your face from me?'",
+      "'My God, my God, why have you forsaken me?'",
+      "'How long will you forget me, O LORD?'",
+      "'Where is your steadfast love, O Lord?'"
+    ],
+    "hint": "Both Matthew 27 and Mark 15 record Jesus crying this exact phrase.",
+    "answer": "'My God, my God, why have you forsaken me?'"
+  },
+  {
+    "id": 80,
+    "difficulty": "hard",
+    "question": "What was the specific sin of the people of Sodom that the prophet Ezekiel highlights in Ezekiel 16:49 — often overlooked?",
+    "options": [
+      "Sexual immorality",
+      "Pride, excess food, and neglect of the poor",
+      "Idol worship",
+      "Violence and bloodshed"
+    ],
+    "hint": "Ezekiel 16:49 — God says 'she and her daughters had' this — it's not what most people expect.",
+    "answer": "Pride, excess food, and neglect of the poor"
+  },
+  {
+    "id": 81,
+    "difficulty": "hard",
+    "question": "In 1 Samuel 15, why did God reject Saul as king of Israel?",
+    "options": [
+      "He sacrificed to a foreign god",
+      "He disobeyed by sparing the Amalekite king and best livestock",
+      "He refused to fight the Philistines",
+      "He murdered a priest of the LORD"
+    ],
+    "hint": "Samuel told him: 'To obey is better than sacrifice, and to heed is better than the fat of rams.'",
+    "answer": "He disobeyed by sparing the Amalekite king and best livestock"
+  },
+  {
+    "id": 82,
+    "difficulty": "easy",
+    "question": "In Acts 9, on the road to Damascus, what did Saul hear when the bright light knocked him down?",
+    "options": [
+      "An angel saying 'Rise and go to Jerusalem'",
+      "A voice saying 'Saul, Saul, why do you persecute me?'",
+      "Thunder and the sound of trumpets",
+      "The voice of a prophet reciting Scripture"
+    ],
+    "hint": "The voice then identified itself — and the answer changed the direction of history.",
+    "answer": "A voice saying 'Saul, Saul, why do you persecute me?'"
+  },
+  {
+    "id": 83,
+    "difficulty": "medium",
+    "question": "Which book of the Bible is the only one written in both Hebrew and Aramaic?",
+    "options": ["Ezekiel", "Nehemiah", "Daniel", "Ezra"],
+    "hint": "Chapters 2–7 are in Aramaic, the rest in Hebrew. It contains famous visions and fiery furnace stories.",
+    "answer": "Daniel"
+  },
+  {
+    "id": 84,
+    "difficulty": "hard",
+    "question": "In 1 Kings 19, after Elijah ran from Jezebel, what did God tell him was His presence — not in wind, earthquake, or fire?",
+    "options": [
+      "A gentle whisper",
+      "A still small voice",
+      "A warm glow",
+      "A soft breeze"
+    ],
+    "hint": "God asked 'What are you doing here, Elijah?' twice. The answer came after all the drama passed.",
+    "answer": "A still small voice"
+  },
+  {
+    "id": 85,
+    "difficulty": "hard",
+    "question": "What unusual thing did Isaiah do for three years as a prophetic sign, as commanded by God in Isaiah 20?",
+    "options": [
+      "He refused to eat meat",
+      "He walked naked and barefoot",
+      "He shaved his head and beard",
+      "He slept on the ground in sackcloth"
+    ],
+    "hint": "It was a sign against Egypt and Cush — their shame would be similarly exposed.",
+    "answer": "He walked naked and barefoot"
+  },
+  {
+    "id": 86,
+    "difficulty": "hard",
+    "question": "What does Proverbs 18:21 say the tongue has the power of?",
+    "options": [
+      "War and peace",
+      "Life and death",
+      "Wisdom and foolishness",
+      "Blessing and cursing"
+    ],
+    "hint": "The verse ends by saying those who love it will eat its fruit.",
+    "answer": "Life and death"
+  },
+  {
+    "id": 87,
+    "difficulty": "easy",
+    "question": "How did fire come down from heaven on the altar at the dedication of Solomon's temple in 2 Chronicles 7?",
+    "options": [
+      "After Aaron raised his hands",
+      "After Solomon struck the altar",
+      "After Solomon finished praying",
+      "After the priests blew the trumpets"
+    ],
+    "hint": "When it came, the glory of the LORD filled the temple and the priests could not enter.",
+    "answer": "After Solomon finished praying"
+  },
+  {
+    "id": 88,
+    "difficulty": "medium",
+    "question": "What was the name of the Moabite woman who said to her mother-in-law: 'Where you go I will go, and where you stay I will stay'?",
+    "options": ["Orpah", "Naomi", "Ruth", "Rahab"],
+    "hint": "She later married Boaz and became part of the lineage of Jesus.",
+    "answer": "Ruth"
+  },
+  {
+    "id": 89,
+    "difficulty": "hard",
+    "question": "In the book of Daniel, what were the four kingdoms represented by the four materials in Nebuchadnezzar's statue?",
+    "options": [
+      "Babylon, Persia, Greece, Rome",
+      "Babylon, Egypt, Assyria, Rome",
+      "Persia, Greece, Rome, and the Church",
+      "Egypt, Babylon, Persia, Greece"
+    ],
+    "hint": "Scholars agree Babylon is the gold head. The legs of iron are Rome. Daniel 2 gives the sequence.",
+    "answer": "Babylon, Persia, Greece, Rome"
+  },
+  {
+    "id": 90,
+    "difficulty": "hard",
+    "question": "What did Jesus write on the ground when the Pharisees brought the woman caught in adultery to Him?",
+    "options": [
+      "The names of the accusers",
+      "The sins of the crowd",
+      "The Law of Moses",
+      "The Bible does not say"
+    ],
+    "hint": "John 8:6 records He stooped twice to write, but Scripture never tells us the content.",
+    "answer": "The Bible does not say"
+  },
+  {
+    "id": 91,
+    "difficulty": "hard",
+    "question": "Which Psalm begins with the same cry Jesus used from the cross: 'My God, my God, why have you forsaken me?'",
+    "options": ["Psalm 16", "Psalm 22", "Psalm 69", "Psalm 88"],
+    "hint": "This Psalm goes on to describe pierced hands and feet and soldiers casting lots for clothing.",
+    "answer": "Psalm 22"
+  },
+  {
+    "id": 92,
+    "difficulty": "hard",
+    "question": "In Matthew 25, what was the talent given to the wicked servant, who buried it, ultimately taken away and given to?",
+    "options": [
+      "Divided equally among the others",
+      "Given to the servant with ten talents",
+      "Given to the poor",
+      "Returned to the master"
+    ],
+    "hint": "Matthew 25:28 — 'For everyone who has will be given more; whoever does not have, even what they have will be taken.'",
+    "answer": "Given to the servant with ten talents"
+  },
+  {
+    "id": 93,
+    "difficulty": "hard",
+    "question": "According to Acts 1:18, how exactly did Judas Iscariot die after betraying Jesus?",
+    "options": [
+      "He was stoned by the Pharisees",
+      "He hanged himself on a tree",
+      "He fell headlong in a field and his body burst open",
+      "He drowned in the Jordan River"
+    ],
+    "hint": "This account differs in detail from Matthew 27. Both are in the Bible and scholars reconcile them.",
+    "answer": "He fell headlong in a field and his body burst open"
+  },
+  {
+    "id": 94,
+    "difficulty": "hard",
+    "question": "When Moses came down from Mount Sinai with the Ten Commandments the second time, what happened to his face?",
+    "options": [
+      "It turned white as snow",
+      "It glowed so brightly that people were afraid to come near him",
+      "His beard had turned grey overnight",
+      "He could not see for three days"
+    ],
+    "hint": "Exodus 34:29 — Moses did not realize it himself until Aaron and the people reacted.",
+    "answer": "It glowed so brightly that people were afraid to come near him"
+  },
+  {
+    "id": 95,
+    "difficulty": "easy",
+    "question": "Which Old Testament book contains the story of Hannah praying for a child and dedicating him to God's service?",
+    "options": ["Ruth", "1 Samuel", "Judges", "Numbers"],
+    "hint": "She was so intense in prayer that the priest Eli thought she was drunk.",
+    "answer": "1 Samuel"
+  },
+  {
+    "id": 96,
+    "difficulty": "medium",
+    "question": "According to Romans 8:28, what does God work together for the good of those who love Him?",
+    "options": [
+      "Their prayers and faith",
+      "All things",
+      "Their trials and blessings",
+      "The desires of their hearts"
+    ],
+    "hint": "This is one of the most quoted promises in the New Testament — no exception or condition is added.",
+    "answer": "All things"
+  },
+  {
+    "id": 97,
+    "difficulty": "hard",
+    "question": "In the New Testament, who was Barnabas before becoming Paul's missionary partner — what was his original name?",
+    "options": [
+      "His name was always Barnabas",
+      "Joseph, a Levite from Cyprus",
+      "Simon, a convert from Antioch",
+      "Judas, renamed after Judas Iscariot died"
+    ],
+    "hint": "Acts 4:36 — the apostles gave him the nickname Barnabas, meaning 'son of encouragement.'",
+    "answer": "Joseph, a Levite from Cyprus"
+  },
+  {
+    "id": 98,
+    "difficulty": "hard",
+    "question": "What did God change the name of Abram and Sarai to, and what did those new names mean?",
+    "options": [
+      "Abraham ('father of nations') and Sarah ('princess')",
+      "Abraham ('beloved of God') and Sarah ('mother of Israel')",
+      "Abraham ('father of many') and Sarah ('chosen one')",
+      "Abraham ('servant of God') and Sarah ('fruitful woman')"
+    ],
+    "hint": "Genesis 17:5 and 17:15 — both name changes were linked to the covenant God was making with them.",
+    "answer": "Abraham ('father of nations') and Sarah ('princess')"
+  },
+  {
+    "id": 99,
+    "difficulty": "hard",
+    "question": "How many times did Jesus appear to people after His resurrection before ascending to heaven, according to 1 Corinthians 15?",
+    "options": [
+      "Three times",
+      "Five recorded times",
+      "More than 500 people witnessed one appearance alone",
+      "Twelve times, once per apostle"
+    ],
+    "hint": "Paul lists multiple resurrection appearances in 1 Corinthians 15:5–8, including one to over 500 at once.",
+    "answer": "More than 500 people witnessed one appearance alone"
+  },
+  {
+    "id": 100,
+    "difficulty": "hard",
+    "question": "What was the name of the sea that God parted for Israel — and what does its Hebrew name 'Yam Suph' actually mean?",
+    "options": [
+      "The Red Sea — meaning 'blood-red waters'",
+      "The Reed Sea — meaning 'sea of reeds'",
+      "The Dead Sea — meaning 'sea of salt'",
+      "The Great Sea — meaning 'sea of the end'"
+    ],
+    "hint": "Modern scholars point out the Hebrew 'Suph' means reeds or papyrus — not the color red.",
+    "answer": "The Reed Sea — meaning 'sea of reeds'"
+  }
+]

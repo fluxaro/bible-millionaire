@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bible Millionaire - The Ultimate Scripture Game Show</title>
+  <meta name="description" content="Climb the points ladder in this premium TV game show experience. Test your knowledge of scripture and become a Bible Millionaire!">
+  <!-- Custom fonts from Google Fonts: Cinzel Decorative for dramatic headings, Montserrat for clean readability -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Victory Confetti Canvas Overlay -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <div class="app-wrapper">
+    <!-- TOP / HEADER -->
+    <header class="app-header">
+      <div class="header-left">
+        <button id="sound-toggle-btn" class="icon-btn" aria-label="Toggle Sound">
+          <svg id="sound-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+          </svg>
+          <span id="sound-text">Sound ON</span>
+        </button>
+      </div>
+
+      <div class="header-center">
+        <h1 class="logo-text">BIBLE MILLIONAIRE</h1>
+      </div>
+
+      <div class="header-right">
+        <button id="stats-trigger-btn" class="icon-btn" aria-label="View Statistics">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+          </svg>
+          <span>Stats</span>
+        </button>
+        <button id="ladder-toggle-btn" class="icon-btn" aria-label="Toggle Ladder">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+            <path d="M19 13H5v-2h14v2zM19 5H5v6h14V5zm0 14H5v-4h14v4z"/>
+          </svg>
+          <span>Ladder</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- MAIN SCREENS CONTAINER -->
+    <main class="screens-container">
+      
+      <!-- SCREEN 1: HOME SCREEN -->
+      <section id="home-screen" class="screen-view">
+        <div class="hero-panel glass-panel">
+          <div class="spotlight"></div>
+          <div class="hero-content">
+            <h2 class="glow-title">BIBLE MILLIONAIRE</h2>
+            <p class="hero-subtitle">The Scripture Trivia Championship</p>
+            
+            <div class="home-decor">
+              <svg viewBox="0 0 100 30" width="120" class="gold-scroll">
+                <path d="M10 15 Q 25 5, 50 15 T 90 15" fill="none" stroke="var(--gold-color)" stroke-width="2"/>
+                <circle cx="50" cy="15" r="3" fill="var(--gold-color)"/>
+              </svg>
+            </div>
+
+            <!-- Home Actions -->
+            <div class="menu-actions">
+              <button id="start-game-btn" class="btn btn-primary btn-glow">START GAME</button>
+              <button id="instructions-btn" class="btn btn-secondary">INSTRUCTIONS</button>
+            </div>
+
+            <!-- Leaderboard / Stats summary -->
+            <div class="stats-summary-card">
+              <div class="stat-item">
+                <div class="stat-label">Played</div>
+                <div id="stat-played" class="stat-value">0</div>
+              </div>
+              <div class="stat-item separator"></div>
+              <div class="stat-item">
+                <div class="stat-label">High Score</div>
+                <div id="stat-high" class="stat-value gold-glow-text">0 Pts</div>
+              </div>
+              <div class="stat-item separator"></div>
+              <div class="stat-item">
+                <div class="stat-label">Wins</div>
+                <div id="stat-won" class="stat-value">0</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SCREEN 2: GAME SCREEN -->
+      <section id="game-screen" class="screen-view hidden">
+        <div class="game-layout">
+          
+          <!-- LEFT/CENTER: QUESTION & ANSWERS -->
+          <div class="game-main">
+            <!-- Question Row with horizontal line -->
+            <div class="question-row">
+              <!-- Question Spotlight Panel -->
+              <div class="question-container glass-panel">
+                <div class="spotlight"></div>
+                <div class="question-box">
+                  <div id="question-text" class="question-text">
+                    Question text will load here...
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Answers Container -->
+            <div class="answers-container options-hidden" id="answers-container">
+              <!-- Show Options trigger button -->
+              <button id="show-options-btn" class="btn btn-primary btn-glow show-options-btn">SHOW OPTIONS</button>
+              <div class="answer-row">
+                <div class="answer-wrapper" id="wrapper-A">
+                  <button id="answer-A" class="answer-btn" aria-label="Option A">
+                    <span class="option-label">A:</span>
+                    <span id="answer-text-A" class="option-text">Answer Option A</span>
+                  </button>
+                </div>
+
+                <div class="answer-wrapper" id="wrapper-B">
+                  <button id="answer-B" class="answer-btn" aria-label="Option B">
+                    <span class="option-label">B:</span>
+                    <span id="answer-text-B" class="option-text">Answer Option B</span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="answer-row">
+                <div class="answer-wrapper" id="wrapper-C">
+                  <button id="answer-C" class="answer-btn" aria-label="Option C">
+                    <span class="option-label">C:</span>
+                    <span id="answer-text-C" class="option-text">Answer Option C</span>
+                  </button>
+                </div>
+
+                <div class="answer-wrapper" id="wrapper-D">
+                  <button id="answer-D" class="answer-btn" aria-label="Option D">
+                    <span class="option-label">D:</span>
+                    <span id="answer-text-D" class="option-text">Answer Option D</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- BOTTOM: LIFELINES + WALK AWAY -->
+            <div class="game-footer">
+              <div class="lifelines-container">
+                <button id="lifeline-50-50" class="lifeline-btn" title="50:50 - Remove 2 Wrong Answers">
+                  <span class="lifeline-icon">50:50</span>
+                  <span class="lifeline-label">50:50</span>
+                </button>
+                <button id="lifeline-audience" class="lifeline-btn" title="Ask the Congregation">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+                  </svg>
+                  <span class="lifeline-label">Congregation</span>
+                </button>
+                <button id="lifeline-hint" class="lifeline-btn" title="Bible Hint - Ask the scriptures">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                  </svg>
+                  <span class="lifeline-label">Scripture Hint</span>
+                </button>
+              </div>
+
+              <div class="walkaway-wrapper">
+                <button id="walk-away-btn" class="btn btn-danger" disabled>WALK AWAY</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT SIDEBAR: PRIZE LADDER -->
+          <aside id="ladder-sidebar" class="ladder-sidebar glass-panel">
+            <h3 class="sidebar-title">PRIZE LEVEL</h3>
+            <div id="points-ladder" class="points-ladder">
+              <!-- Levels ordered 15 down to 1 (top to bottom) -->
+              <div class="ladder-item milestone" data-level="15">
+                <span class="level-num">15</span>
+                <span class="level-val">1,000,000 Pts</span>
+              </div>
+              <div class="ladder-item" data-level="14">
+                <span class="level-num">14</span>
+                <span class="level-val">500,000 Pts</span>
+              </div>
+              <div class="ladder-item" data-level="13">
+                <span class="level-num">13</span>
+                <span class="level-val">250,000 Pts</span>
+              </div>
+              <div class="ladder-item" data-level="12">
+                <span class="level-num">12</span>
+                <span class="level-val">125,000 Pts</span>
+              </div>
+              <div class="ladder-item" data-level="11">
+                <span class="level-num">11</span>
+                <span class="level-val">64,000 Pts</span>
+              </div>
+              <div class="ladder-item milestone" data-level="10">
+                <span class="level-num">10</span>
+                <span class="level-val">32,000 Pts</span>
+              </div>
+              <div class="ladder-item" data-level="9">
+                <span class="level-num">9</span>
+                <span class="level-val">16,000 Pts</span>
+              </div>
+              <div class="ladder-item" data-level="8">
+                <span class="level-num">8</span>
+                <span class="level-val">8,000 Pts</span>
+              </div>
+              <div class="ladder-item" data-level="7">
+                <span class="level-num">7</span>
+                <span class="level-val">4,000 Pts</span>
+              </div>
+              <div class="ladder-item" data-level="6">
+                <span class="level-num">6</span>
+                <span class="level-val">2,000 Pts</span>
+              </div>
+              <div class="ladder-item milestone" data-level="5">
+                <span class="level-num">5</span>
+                <span class="level-val">1,000 Pts</span>
+              </div>
+              <div class="ladder-item" data-level="4">
+                <span class="level-num">4</span>
+                <span class="level-val">500 Pts</span>
+              </div>
+              <div class="ladder-item" data-level="3">
+                <span class="level-num">3</span>
+                <span class="level-val">300 Pts</span>
+              </div>
+              <div class="ladder-item" data-level="2">
+                <span class="level-num">2</span>
+                <span class="level-val">200 Pts</span>
+              </div>
+              <div class="ladder-item" data-level="1">
+                <span class="level-num">1</span>
+                <span class="level-val">100 Pts</span>
+              </div>
+            </div>
+          </aside>
+
+        </div>
+      </section>
+
+      <!-- SCREEN 3: RESULTS SCREEN -->
+      <section id="results-screen" class="screen-view hidden">
+        <div class="results-panel glass-panel">
+          <div class="spotlight"></div>
+          
+          <!-- Victory Badge SVG -->
+          <div id="victory-badge" class="victory-badge-container hidden">
+            <svg viewBox="0 0 100 100" class="laurel-wreath">
+              <path d="M 50 90 A 40 40 0 0 1 10 50 A 40 40 0 0 1 50 10 A 40 40 0 0 1 90 50" fill="none" stroke="var(--gold-color)" stroke-width="4" stroke-dasharray="6,4"/>
+              <path d="M 50 90 A 40 40 0 0 0 90 50 A 40 40 0 0 0 50 10" fill="none" stroke="var(--gold-color)" stroke-width="4" stroke-dasharray="6,4"/>
+              <circle cx="50" cy="50" r="32" fill="rgba(212, 175, 55, 0.1)"/>
+              <text x="50" y="55" font-family="'Cinzel Decorative', serif" font-size="16" font-weight="bold" fill="var(--gold-color)" text-anchor="middle">1M</text>
+            </svg>
+          </div>
+
+          <h2 id="results-title" class="results-title">GAME OVER</h2>
+          
+          <div class="score-display">
+            <span class="score-label">Final Score</span>
+            <div id="results-score-value" class="results-score-value">0</div>
+            <span class="score-points-label">Points</span>
+          </div>
+
+          <p id="results-message" class="results-message">
+            Descriptive results message loaded dynamically.
+          </p>
+
+          <div class="results-stats">
+            <div class="res-stat">
+              <span>Games Played:</span>
+              <strong id="results-stat-played">0</strong>
+            </div>
+            <div class="res-stat">
+              <span>Personal Best:</span>
+              <strong id="results-stat-high">0 Pts</strong>
+            </div>
+          </div>
+
+          <div class="results-actions">
+            <button id="play-again-btn" class="btn btn-primary btn-glow">PLAY AGAIN</button>
+            <button id="home-btn" class="btn btn-secondary">HOME SCREEN</button>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- NATIVE MODAL DIALOGS -->
+
+  <!-- 1. Final Answer Confirmation -->
+  <dialog id="final-answer-modal" class="modal-dialog glass-panel" closedby="any" aria-labelledby="confirm-title">
+    <div class="modal-content">
+      <h3 id="confirm-title" class="modal-title">Is this your FINAL ANSWER?</h3>
+      <p class="modal-body">Are you absolutely sure this is your final answer?</p>
+      <div class="modal-actions">
+        <button id="confirm-final-btn" class="btn btn-primary">YES</button>
+        <button id="cancel-final-btn" class="btn btn-secondary">NO</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- 2. Ask the Congregation — host calls on a real person -->
+  <dialog id="audience-modal" class="modal-dialog glass-panel audience-modal" aria-labelledby="audience-title">
+    <div class="modal-content">
+
+      <!-- STEP 1: Name someone in the congregation -->
+      <div id="audience-step-name">
+        <div class="congregation-icon" aria-hidden="true">🙋</div>
+        <h3 id="audience-title" class="modal-title">Ask the Congregation</h3>
+        <p class="modal-subtitle">Call on someone in the room. Enter their name below.</p>
+
+        <div class="audience-name-entry">
+          <input
+            type="text"
+            id="audience-name-input"
+            class="audience-name-input"
+            placeholder="Congregation member's name..."
+            maxlength="30"
+            autocomplete="off"
+          />
+          <button id="audience-ask-btn" class="btn btn-primary btn-glow">Call on Them</button>
+        </div>
+
+        <div class="modal-actions">
+          <form method="dialog">
+            <button class="btn btn-secondary" type="submit">Cancel</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- STEP 2: Waiting for their answer -->
+      <div id="audience-step-waiting" class="hidden">
+        <div class="congregation-icon waiting-pulse" aria-hidden="true">👂</div>
+        <h3 class="modal-title">Listening...</h3>
+        <p class="modal-subtitle">Ask <strong id="audience-waiting-name">—</strong> the question. When they answer, tap the button below.</p>
+
+        <div id="audience-options-preview" class="audience-options-preview"></div>
+
+        <button id="audience-answered-btn" class="btn btn-primary btn-glow audience-answered-btn">They've Answered</button>
+
+        <div class="modal-actions">
+          <button id="audience-back-btn" class="btn btn-secondary">← Change Person</button>
+        </div>
+      </div>
+
+      <!-- STEP 3: Record which option they chose -->
+      <div id="audience-step-pick" class="hidden">
+        <h3 class="modal-title">Record Their Answer</h3>
+        <p class="modal-subtitle">What did <strong id="audience-pick-name">—</strong> say?</p>
+
+        <div id="audience-pick-buttons" class="audience-pick-grid"></div>
+
+        <div class="modal-actions">
+          <button id="audience-back-waiting-btn" class="btn btn-secondary">← Back</button>
+        </div>
+      </div>
+
+      <!-- STEP 4: Confirmation -->
+      <div id="audience-step-result" class="hidden">
+        <div class="congregation-icon" aria-hidden="true">✨</div>
+        <div id="audience-person-name" class="audience-person-name">John</div>
+        <p class="audience-thinking">suggests:</p>
+
+        <div id="audience-suggestion-box" class="audience-suggestion-box">
+          <div id="audience-suggested-answer" class="audience-suggested-answer">—</div>
+        </div>
+
+        <div class="modal-actions">
+          <form method="dialog">
+            <button class="btn btn-primary" type="submit">Thank You!</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </dialog>
+
+  <!-- 3. Bible Hint Dialog -->
+  <dialog id="hint-modal" class="modal-dialog glass-panel" closedby="any" aria-labelledby="hint-title">
+    <div class="modal-content">
+      <div class="scroll-icon-decor">
+        <svg viewBox="0 0 24 24" width="40" height="40" fill="var(--gold-color)">
+          <path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4zm12 16H6v-6h12v6zm0-8h-5V4h5v8z"/>
+        </svg>
+      </div>
+      <h3 id="hint-title" class="modal-title">Scripture Wisdom</h3>
+      <div id="hint-text" class="modal-body quote-box">
+        Hint message goes here...
+      </div>
+      <div class="modal-actions">
+        <form method="dialog">
+          <button class="btn btn-primary" type="submit">Amen</button>
+        </form>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- 4. Walk Away Confirmation -->
+  <dialog id="walk-away-modal" class="modal-dialog glass-panel" closedby="any" aria-labelledby="walkaway-title">
+    <div class="modal-content">
+      <h3 id="walkaway-title" class="modal-title">Walk Away?</h3>
+      <p class="modal-body">
+        Are you sure you want to stop here and take your guaranteed points of 
+        <strong class="gold-glow-text"><span id="walk-away-value">0</span> Pts</strong>?
+      </p>
+      <div class="modal-actions">
+        <button id="confirm-walkaway-btn" class="btn btn-danger">Yes, Take Score</button>
+        <form method="dialog" style="display:inline;">
+          <button class="btn btn-secondary" type="submit">Keep Playing</button>
+        </form>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- 5. Instructions / Rules Modal -->
+  <dialog id="instructions-modal" class="modal-dialog glass-panel" closedby="any" aria-labelledby="rules-title">
+    <div class="modal-content scrollable-content">
+      <h3 id="rules-title" class="modal-title">Game Instructions</h3>
+      <div class="modal-body rules-list">
+        <p>Welcome, trivia challenger! Here are the rules of the show:</p>
+        <ol>
+          <li>You will face <strong>15 questions</strong> of increasing scriptural difficulty.</li>
+          <li>For each question, select an option and <strong>confirm</strong> your final choice.</li>
+          <li>Every level earned rewards higher points. Reach <strong>1,000,000 points</strong> to win!</li>
+          <li>There are two <strong>Milestone Safe Levels</strong>:
+            <ul>
+              <li><strong>Level 5 (1,000 Pts)</strong></li>
+              <li><strong>Level 10 (32,000 Pts)</strong></li>
+            </ul>
+            If you get a question wrong, you fall back to your last milestone. If you have not reached Level 5, you leave with 0.
+          </li>
+          <li>You have <strong>3 Lifelines</strong> (usable once per game):
+            <ul>
+              <li><strong>50:50</strong> - Discard two wrong options.</li>
+              <li><strong>Ask the Congregation</strong> - Call on someone in the room and record their suggested answer.</li>
+              <li><strong>Scripture Hint</strong> - Read a biblically inspired hint.</li>
+            </ul>
+          </li>
+          <li>You can choose to <strong>Walk Away</strong> and keep your accumulated points from the previous successfully answered level. This option becomes available starting at level 2.</li>
+        </ol>
+      </div>
+      <div class="modal-actions">
+        <form method="dialog">
+          <button class="btn btn-primary" type="submit">Understood</button>
+        </form>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- 6. Detailed Player Stats Modal -->
+  <dialog id="stats-modal" class="modal-dialog glass-panel" closedby="any" aria-labelledby="stats-title">
+    <div class="modal-content">
+      <h3 id="stats-title" class="modal-title">Championship Stats</h3>
+      
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="lbl">Games Played</span>
+          <strong id="modal-stat-played" class="val">0</strong>
+        </div>
+        <div class="stat-card">
+          <span class="lbl">Championships Won</span>
+          <strong id="modal-stat-won" class="val">0</strong>
+        </div>
+        <div class="stat-card full-width">
+          <span class="lbl">Highest Score Achieved</span>
+          <strong id="modal-stat-high" class="val gold-glow-text">0 Pts</strong>
+        </div>
+      </div>
+
+      <div id="win-rate-text" class="win-rate-callout">
+        Win Rate: 0%
+      </div>
+
+      <div class="modal-actions column-actions">
+        <form method="dialog" style="width: 100%;">
+          <button class="btn btn-primary" style="width: 100%;" type="submit">Close</button>
+        </form>
+        <button id="reset-stats-btn" class="btn btn-text-danger">Reset All Progress</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Script Import -->
+  <script src="script.js"></script>
+</body>
+</html>
