@@ -315,11 +315,11 @@ const sounds = new SoundEngine();
 // --- Game Constants & Levels ---
 const PRIZE_LADDER = [
   100, 200, 300, 500, 1000,
-  2000, 4000, 8000, 16000, 32000,
-  64000, 125000, 250000, 500000, 1000000
+  1500, 2000, 2500, 3000, 3500,
+  4000, 5000, 5500, 6000, 7000
 ];
 
-const SAFE_LEVELS = [5, 10, 15]; // Level numbers: 5 (1,000), 10 (32,000), 15 (1,000,000)
+const SAFE_LEVELS = [5, 10, 15]; // Level numbers: 5 (1,000), 10 (3,500), 15 (7,000)
 
 // --- Game State Object ---
 let gameState = {
@@ -465,7 +465,7 @@ function updateStatsUI() {
 }
 
 function formatScore(score) {
-  return score.toLocaleString() + ' Pts';
+  return '₦' + score.toLocaleString();
 }
 
 // --- Screen Switching Logic ---
@@ -807,19 +807,19 @@ function handleGameOver(walkedAway = false) {
   }
 
   saveStats(score, false);
-  dom.resultsScore.textContent = score.toLocaleString();
+  dom.resultsScore.textContent = '₦' + score.toLocaleString();
   dom.resultsScore.className = "results-score-value";
   showScreen('results');
 }
 
 // --- Victory Sequence ---
 function handleGameVictory() {
-  const score = 1000000;
+  const score = 7000;
   sounds.playVictoryFanfare();
   
   dom.resultsTitle.textContent = "CONGRATULATIONS!";
   dom.resultsTitle.className = "results-title victory";
-  dom.resultsScore.textContent = "1,000,000";
+  dom.resultsScore.textContent = "₦7,000";
   dom.resultsScore.className = "results-score-value million";
   dom.resultsMsg.innerHTML = "<strong>YOU ARE A BIBLE MILLIONAIRE!</strong><br>You successfully navigated all 15 scriptural challenges and won the grand prize!";
   
@@ -958,7 +958,7 @@ function useBibleHint() {
 function handleWalkAwayClick() {
   sounds.playBeep();
   const secureValue = PRIZE_LADDER[gameState.currentQuestionIndex - 1];
-  document.getElementById('walk-away-value').textContent = secureValue.toLocaleString();
+  document.getElementById('walk-away-value').textContent = '₦' + secureValue.toLocaleString();
   dom.dialogWalkAway.showModal();
 }
 
